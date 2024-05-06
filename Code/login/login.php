@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('connection.php');
+include('../Connection.php');
 
 if (isset($_POST['login_btn'])) {
     $username = mysqli_real_escape_string($conn, $_POST['username']);
@@ -22,7 +22,7 @@ if (isset($_POST['login_btn'])) {
         $_SESSION['authuser_name'] = $username;
 
         $_SESSION['status'] = "Login Successfully";
-        header('Location: ../Home.php');
+        header('Location:   ../../home.php');
         exit();
     } else {
 
